@@ -1,5 +1,6 @@
 ---
 title: Dynamic programming
+has_math: yes
 ---
 
 DP is a fancy name for greedy algorithms which are usually storing some extra informations to compute the next state.
