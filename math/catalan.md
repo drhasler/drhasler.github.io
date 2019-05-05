@@ -1,7 +1,7 @@
 
 # catalan numbers
 - in how many ways can you triangulate a (n+2)-gon ?
-![cat](/res/catalan1.png)
+![cat](/res/cat1.png)
 - how many well formed sequences of n pairs of parenthesis is there ?
 
 ## explicit formula
@@ -21,7 +21,7 @@ we consider the top side as anchor.
 we now iterate over all other vertices
 and we can consider all possible polygon triangulations on both sides
 multiplied since independant
-![cat](/res/catalan2.png)
+![cat](/res/cat2.png)
 
 uniqueness is given by the triangle that contains this top-edge
 
