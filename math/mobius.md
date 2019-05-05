@@ -10,7 +10,8 @@ if $n$ has a prime factor of multiplicity $\gt 1, \mu(n) = 0$
 else $\mu(n) = (-1)^k$ where $k$ is the number of prime factors
 
 ```cpp
-void mobius(int N) {
+void mobius(vector<int>& mu) {
+    int N = mu.size();
     vector<int> pr;
     vector<bool> is_pr(N,1);
     is_pr[0] = is_pr[1] = 0;
