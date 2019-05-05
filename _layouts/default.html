@@ -14,7 +14,7 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if page.url != site.url %}
-      <a href="{{ site.url}}" class="btn">HOME</a>
+      <a href="{{ site.url}}" class="btn">{{site.url}} {{page.url}}HOME</a>
       {% endif %}
     </header>
 
