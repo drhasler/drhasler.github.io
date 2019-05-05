@@ -50,5 +50,7 @@ g(n) = \sum_{d|n} f(d) \implies
 f(n) = \sum_{d|n} \mu(d) g(n/d)
 $$
 
-this can help with simple inclusion/exclusion over the prime factors
+this can help with simple inclusion/exclusion over the prime factors:
 
+[codeforces 1139D](https://codeforces.com/contest/1139/problem/D)
+is a great example
