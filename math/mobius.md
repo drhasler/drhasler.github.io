@@ -1,5 +1,6 @@
-
-# Möbius
+---
+title: Möbius
+---
 
 the Möbius function $\mu$ is defined the following way:
 

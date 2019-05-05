@@ -1,4 +1,6 @@
-# catalan numbers
+---
+title: catalan numbers
+---
 
 ![cat](/res/cat1.png)
 
