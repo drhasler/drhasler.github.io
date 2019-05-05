@@ -17,12 +17,11 @@ but why?
 
 lets consider the triangulation of the (n+2)-gon:
 
-we consider the top side and its left vertex as anchor
-
+we consider the top side as anchor.
 we now iterate over all other vertices
-![cat](../res/catalan2.png)
-
-uniqueness is given by the triangle that contains this edge
 and we can consider all possible polygon triangulations on both sides
 multiplied since independant
+![cat](../res/catalan2.png)
+
+uniqueness is given by the triangle that contains this top-edge
 
