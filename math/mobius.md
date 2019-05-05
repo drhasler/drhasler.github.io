@@ -17,7 +17,8 @@ vector<int> pr; // primes up to sqN
 int mu[N];
 
 void primes() {
-    for (int i=2;i<sqN;i++) {
+    pr.push_back(2);
+    for (int i=3;i<sqN;i+=2) {
         for (int p:pr) if (i%p==0) goto bad;
         pr.push_back(i);
 bad:;
@@ -26,7 +27,7 @@ bad:;
 
 void mobius() {
     mu[1] = 1;
-    fill(mu+2,mu+N,-1); // prime by default, divisor will overwrite
+    fill(mu+2,mu+N,-1);
     for (int i=2;i<N;i++) {
         for (auto &p:pr) {
             if (i*p>=N || p>i) break;
@@ -37,7 +38,9 @@ void mobius() {
 }
 ```
 
-complexity of this thing is coming up soon
+### complexity analysis
+- **primes** $O(\sqrt N \log \sqrt N )$ sieve of Erastostenes
+- **mobius** $O(N)$ - each composite $m$ has a smallest divisor $p$, and is only touched at $i = m/p$
 
 is it of any use ?
 meet the Möbius inversion
