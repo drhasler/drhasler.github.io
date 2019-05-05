@@ -10,12 +10,14 @@
 you into math ? here you go
 
 $$
-C(n) = binom(2n,n) - binom(2n,n+1) = binom(2n,n) / (n+1)
+C_n = \binom{2n}n - \binom{2n}{n+1} = \frac1{n+1} \binom{2n}n
 $$
 
 ## recursive formula
 
-C(n+1) = sum 0<=k<=n of C(k) * C(n-k)
+$$
+C_{n+1} = \sum_k^n C_k \ C_{n-k}
+$$
 
 but why?
 
