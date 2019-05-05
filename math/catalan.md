@@ -27,10 +27,9 @@ we consider the top side as anchor.
 we now iterate over all other vertices
 and we can consider all possible polygon triangulations on both sides
 multiplied since independant
+
 ![cat](/res/cat2.png)
 
 uniqueness is given by the triangle that contains this top-edge
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-
-
