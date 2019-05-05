@@ -13,6 +13,7 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <a href="{{ site.url}}" class="btn">HOME</a>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -31,7 +32,6 @@
       {% endif %}
 
       <footer class="site-footer">
-        <button class="btn" onclick="window.location.href = '{{ site.url }}';">HOME</button>
         <span class="author">Matthias Hasler - 2019</span>
       </footer>
     </main>
