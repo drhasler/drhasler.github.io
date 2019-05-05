@@ -1,3 +1,4 @@
+<script defer src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 # catalan numbers
 
@@ -30,4 +31,4 @@ multiplied since independant
 
 uniqueness is given by the triangle that contains this top-edge
 
-<script defer src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
