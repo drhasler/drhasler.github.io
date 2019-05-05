@@ -34,7 +34,7 @@ meet the inverse Möbius formula
 
 $$
 g(n) = \sum_{d|n} f(d) \implies
-f(n) = \sum_{d|n} mu(d) g(n/d)
+f(n) = \sum_{d|n} \mu(d) g(n/d)
 $$
 
 this can help with simple inclusioin exclusion over the prime factors
