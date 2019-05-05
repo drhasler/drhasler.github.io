@@ -1,13 +1,18 @@
 
 # catalan numbers
-- in how many ways can you triangulate a (n+2)-gon ?
+
 ![cat](/res/cat1.png)
+
+- in how many ways can you triangulate a (n+2)-gon ?
 - how many well formed sequences of n pairs of parenthesis is there ?
 
 ## explicit formula
-if you are into math you would probably prefer an explicit formula
 
+you into math ? here you go
+
+$$
 C(n) = binom(2n,n) - binom(2n,n+1) = binom(2n,n) / (n+1)
+$$
 
 ## recursive formula
 
@@ -25,3 +30,4 @@ multiplied since independant
 
 uniqueness is given by the triangle that contains this top-edge
 
+<script defer src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
