@@ -27,12 +27,11 @@ but why?
 lets consider the triangulation of the (n+2)-gon:
 
 we consider the top side as anchor.
-we now iterate over all other vertices
-and we can consider all possible polygon triangulations on both sides
-multiplied since independant
+we now iterate over all other vertices and form a red triangle.
+We can then consider all possible polygon triangulations on both sides.
 
 ![cat](/res/cat2.png)
 
-uniqueness is given by the triangle that has this top-edge
+uniqueness is given by the red triangle: the only triangle containing this top-edge.
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
