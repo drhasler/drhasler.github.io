@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Möbius
+has_math: yes
 ---
 
 the Möbius function $\mu$ is defined the following way:
@@ -29,12 +29,14 @@ void mobius(int N) {
 }
 ```
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
+is it of any use ?
+meet the inverse Möbius formula
+
+$$
+g(n) = \sum_{d|n} f(d) implies
+$$$$
+f(n) = \sum_{d|n} mu(d) g(n/d)
+$$
+
+this can help with simple inclusioin exclusion over the prime factors
+

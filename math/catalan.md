@@ -1,6 +1,6 @@
 ---
-layout: default
 title: catalan numbers
+has_math: yes
 ---
 
 ![cat](/res/cat1.png)
@@ -33,6 +33,6 @@ multiplied since independant
 
 ![cat](/res/cat2.png)
 
-uniqueness is given by the triangle that contains this top-edge
+uniqueness is given by the triangle that has this top-edge
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>

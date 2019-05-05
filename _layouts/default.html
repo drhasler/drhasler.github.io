@@ -18,6 +18,18 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+{% if page.has_math %}
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+{% endif %}
+
       <footer class="site-footer">
           <span class="author">Matthias Hasler - 2019</span>
       </footer>
