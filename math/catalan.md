@@ -3,6 +3,8 @@
 - in how many ways can you triangulate a (n+2)-gon ?
 - how many well formed sequences of n pairs of parenthesis is there ?
 
+![cat](../res/catalan1.png)
+
 ## explicit formula
 if you are into math you would probably prefer an explicit formula
 
