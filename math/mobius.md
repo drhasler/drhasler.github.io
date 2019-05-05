@@ -5,7 +5,7 @@ has_math: yes
 
 the Möbius function $\mu$ is defined the following way:
 
-if n has a prime factor of multiplicity > 1 $\mu(n) = 0$
+if $n$ has a prime factor of multiplicity $\gt 1, \mu(n) = 0$
 
 else $\mu(n) = (-1)^k$ where $k$ is the number of prime factors
 
@@ -33,8 +33,7 @@ is it of any use ?
 meet the inverse Möbius formula
 
 $$
-g(n) = \sum_{d|n} f(d) implies
-$$$$
+g(n) = \sum_{d|n} f(d) \implies
 f(n) = \sum_{d|n} mu(d) g(n/d)
 $$
 
