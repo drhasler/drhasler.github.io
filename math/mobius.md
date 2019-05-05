@@ -15,6 +15,7 @@ void mobius(vector<int>& mu) {
     vector<int> pr;
     vector<bool> is_pr(N,1);
     is_pr[0] = is_pr[1] = 0;
+    mu[1] = 1;
     for (int i=2;i<N;i++) {
         if (is_pr[i]) {
             pr.push_back(i);
@@ -31,12 +32,12 @@ void mobius(vector<int>& mu) {
 ```
 
 is it of any use ?
-meet the inverse Möbius formula
+meet the Möbius inversion
 
 $$
 g(n) = \sum_{d|n} f(d) \implies
 f(n) = \sum_{d|n} \mu(d) g(n/d)
 $$
 
-this can help with simple inclusioin exclusion over the prime factors
+this can help with simple inclusion/exclusion over the prime factors
 
