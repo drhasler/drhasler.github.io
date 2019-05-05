@@ -30,7 +30,7 @@ void mobius() {
     for (int i=2;i<N;i++) {
         if (is_pr[i]) mu[i] = -1;
         for (auto &p:pr) {
-            if (i*p>=N) break;
+            if (i*p>=N || p>i) break;
             if (i%p==0) { mu[i*p]=0; break; } // mult > 1
             else mu[i*p] = mu[i] * mu[p]; // distinct or 0
         }
