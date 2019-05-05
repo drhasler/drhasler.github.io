@@ -43,6 +43,7 @@ but this is quite a waste of time if you are only interested in finding one coef
 a pair of consecutive Fibo nbs can be considered as a vector
 
 we can obtain the next pair by multiplying it by a matrix
+
 $$
 \newcommand\pma[1]{\begin{pmatrix}#1\end{pmatrix}}
 f_{1,2} = \pma{ 1 \\ 2 }
@@ -50,6 +51,11 @@ f_{1,2} = \pma{ 1 \\ 2 }
 = A f_{0,1}
 $$
 
-we can now use binary matrix exponentiation to compute $f_{n,n+1} = A^n f_{0,1}$
+we can now use binary exponentiation to compute $A^n$ and obtain $f_{n,n+1} = A^n f_{0,1}$
+in $O(\log N)$ time. This technique is very useful and can be used whenever the next state
+is a linear combination of the previous one.
 
+Finally DP can also be used on trees, through one or two DFS. It is generally labeled as DP
+if we have to merge informations about the subbranches, this information can sometimes be
+contained in vectors. You have to be careful about the way you are merging them into the parent one.
 
