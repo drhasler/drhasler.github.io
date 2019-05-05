@@ -39,7 +39,7 @@ void mobius() {
 ```
 
 ### complexity analysis
-- **primes** $O(\sqrt N \log \sqrt N )$ sieve of Erastostenes
+- **primes** $O(\sqrt N \log \sqrt N )$ sieve of Erastosthenes
 - **mobius** $O(N)$ - each composite $m$ has a smallest divisor $p$, and is only touched at $i = m/p$
 
 is it of any use ?
