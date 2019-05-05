@@ -36,7 +36,7 @@ $$
 f_{i+2} = f_{i}+f_{i+1}
 $$
 
-we can naively compute all Fibonacci numbers less than n in O(n)
+we can naively compute all Fibonacci numbers less than $n$ in $O(n)$
 
 but this is quite a waste of time if you are only interested in finding one coefficient
 
@@ -50,6 +50,6 @@ f_{1,2} = \pm{ 1 \\ 2 }
 = A f_{0,1}
 $$
 
-we can now use binary matrix exponentiation to
+we can now use binary matrix exponentiation to compute $f_{n,n+1} = A^n f_{0,1}$
 
 
