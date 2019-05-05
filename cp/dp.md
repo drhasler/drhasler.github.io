@@ -44,9 +44,9 @@ a pair of consecutive Fibo nbs can be considered as a vector
 
 we can obtain the next pair by multiplying it by a matrix
 $$
-\renewcommand \pm[1] \begin{pmatrix}#1\end{pmatrix}
-f_{1,2} = \pm{ 1 \\ 2 }
-= \pm{ 0 & 1 \\ 1 & 1 } \pm{ 1 \\ 1 }
+\newcommand\pma[1]{\begin{pmatrix}#1\end{pmatrix}}
+f_{1,2} = \pma{ 1 \\ 2 }
+= \pma{ 0 & 1 \\ 1 & 1 } \pma{ 1 \\ 1 }
 = A f_{0,1}
 $$
 
