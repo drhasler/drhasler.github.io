@@ -11,24 +11,23 @@ else $\mu(n) = (-1)^k$ where $k$ is the number of prime factors
 
 ```cpp
 const int N = 1e6;
+const int sqN = 1e3;
 
-bool is_pr[N];
-vector<int> pr;
+vector<int> pr; // primes up to sqN
 int mu[N];
 
 void primes() {
-    for (int i=2;i<N;i++) {
+    for (int i=2;i<sqN;i++) {
         for (int p:pr) if (i%p==0) goto bad;
         pr.push_back(i);
-        is_pr[i] = 1;
 bad:;
     }
 }
 
 void mobius() {
     mu[1] = 1;
+    fill(mu+2,mu+N,-1); // prime by default, divisor will overwrite
     for (int i=2;i<N;i++) {
-        if (is_pr[i]) mu[i] = -1;
         for (auto &p:pr) {
             if (i*p>=N || p>i) break;
             if (i%p==0) { mu[i*p]=0; break; } // mult > 1
