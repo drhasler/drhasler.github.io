@@ -16,6 +16,7 @@ Let's introduce better online solutions
 # Binary indexed tree
 
 ![not mine, dont copystrike pls](http://mrl.kr/wordpress/wp-content/uploads/2016/02/2.jpg)
+
 **BIT** or **Fenwick tree** is the most lightweight and fastest option
 for range sum queries and updates. It is very straight forward but still
 cryptic _af_. Using two's complement rule: `x&-x` returns `x`s lowest set bit.
@@ -56,6 +57,40 @@ The Fenwick tree is made for querying partial sums, but doesn't work for more di
 
 # Segment tree
 
-Segment trees are more flexible, and easier to remember
+Segment trees are more flexible, and the implementation is easier to remember.
+In fact all indices of the array are shifted by N,
+and the parent of each node is has half the index.
 
 ![pic from CF](http://i.imgur.com/GGBmcEP.png)
+
+In this picture we can see that for a request we will have two pointers
+one left and one to the right _(the right bound has to be exclusive for the
+sum we are interested in to be between the two)_,
+we will go up as long as possible. But when it is not possible to go straight up,
+or when the index is odd, we have to "align" it and its only then that we process this range.
+When the two pointers meet, we are done.
+
+```cpp
+const int N = 1<<18; // has to be power of 2
+int T[2*N], a[N];
+
+int sum(int l,int r) {
+    int ans = 0;
+    l += N, r += N+1; // r exclusive
+    while (l<r) {
+        if (l&1) ans += T[l++];
+        if (r&1) ans += T[--r];
+        l/=2, r/=2;
+    }
+    return sum;
+}
+
+void add(int val, int at) {
+    for (at += N; at; at/=2) T[at] += val;
+}
+
+void build() {
+    for (int i=0;i<N;i++) T[i+N] = a[i];
+    for (int i=N-1;i;i--) T[i] = T[2*i]+T[2*i+1];
+}
+```
