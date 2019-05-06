@@ -7,6 +7,7 @@ has_math: yes
 
 - in how many ways can you triangulate a (n+2)-gon ?
 - how many well formed sequences of n pairs of parenthesis is there ?
+- other shady applications
 
 ## explicit formula
 
