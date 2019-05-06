@@ -94,5 +94,5 @@ because the balancing operation is very costly..
 
 
 # offline stuff
-data structures like segtree and bit aka Fenwick are coming up as well
+data structures like segtree and BIT aka Fenwick are coming up as well
 
