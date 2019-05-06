@@ -31,3 +31,5 @@ index summary whatever, i really need to write some html for this
 ### data structures
 - [Range queries](/ds/rq.md)
 
+### geometry
+- [Convexity](/geo/conv.md)
