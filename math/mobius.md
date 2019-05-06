@@ -39,8 +39,8 @@ void mobius() {
 ```
 
 ### complexity analysis
-- **primes** $O(\sqrt N \log \log \sqrt N )$ sieve of Erastosthenes
-- **mobius** $O(N)$ - each composite $m$ has a smallest divisor $p$, and is only touched at $i = m/p$
+- **primes** $O(\sqrt N \log \log \sqrt N )$ [sieve of Erastosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+- **mobius** $O(N)$ - as each composite $m$ has a smallest divisor $p$, and is only overwritten when $i = m/p$
 
 is it of any use ?
 meet the Möbius inversion
