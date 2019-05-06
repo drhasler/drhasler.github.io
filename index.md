@@ -10,7 +10,7 @@ I am focusing on intuition.
 Various topics are to be tackled,
 with a competitive programming approach...
 
-hopefully you can learn 1 or 2 things
+hopefully you can learn one or two things
 
 ## pages
 index summary whatever

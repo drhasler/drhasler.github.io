@@ -29,7 +29,9 @@ int main() {
 
 this leads to many quadratic and cubic algorithms.
 
-another example is Fibonacci.
+## linear transforms
+
+another example of DP application is Fibonacci.
 you are probably familiar with the following formula:
 
 $$
@@ -38,9 +40,9 @@ $$
 
 we can naively compute all Fibonacci numbers less than $n$ in $O(n)$
 
-but this is quite a waste of time if you are only interested in finding one coefficient
+but this is quite a waste of time if you are only interested in finding one number of the sequence 
 
-a pair of consecutive Fibo nbs can be considered as a vector
+a pair of consecutive Fibonacci numbers can be considered as a vector
 
 we can obtain the next pair by multiplying it by a matrix
 
@@ -52,8 +54,19 @@ f_{1,2} = \pma{ 1 \\ 2 }
 $$
 
 we can now use binary exponentiation to compute $A^n$ and obtain $f_{n,n+1} = A^n f_{0,1}$
-in $O(\log N)$ time. This technique is very useful and can be used whenever the next state
+in $O(\log n)$ time. This technique is very useful and can be used whenever the next state
 is a linear combination of the previous one.
+
+### masks
+masks are often used to provide a "canonical" access to the vector elements,
+however the previous algorithms works in $O(n^3 \log k)$, where $n$ is the size of the vector
+and $k$ is the power to which the transition matrix is raised.
+
+For applications such as tiling, one can often considerably reduce the size of the vector by mapping the masks
+to a smaller range of "reachable" masks. If the number of states is reduced by a factor of $m$, the algorithm
+will run $m^3$ times faster.
+
+## trees
 
 Finally DP can also be used on trees, through one or two DFS. It is generally labeled as DP
 if we have to merge informations about the subbranches, this information can sometimes be
