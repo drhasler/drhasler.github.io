@@ -14,6 +14,8 @@ however modifing an element in the array requires all the coefficients to be rec
 Let's introduce better online solutions 
 
 # Binary indexed tree
+
+![not mine, dont copystrike pls](http://mrl.kr/wordpress/wp-content/uploads/2016/02/2.jpg)
 **BIT** or **Fenwick tree** is the most lightweight and fastest option
 for range sum queries and updates. It is very straight forward but still
 cryptic _af_. Using two's complement rule: `x&-x` returns `x`s lowest set bit.
@@ -50,6 +52,10 @@ int main() {
 }
 ```
 
+The Fenwick tree is made for querying partial sums, but doesn't work for more diverse applications.
+
 # Segment tree
 
+Segment trees are more flexible, and easier to remember
 
+![pic from CF](http://i.imgur.com/GGBmcEP.png)

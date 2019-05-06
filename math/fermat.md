@@ -8,8 +8,7 @@ _assuming you are familiar with the basics of modular arithmetic_
 ## Fermat's little theorem
 > If $p$ is prime and $a$ is not divisible by $p$, then $a^{p-1}-1$ is a multiple of $p$
 
-this means that $a^{p-1}$ is congruent to $1$ but also that
-$a^{p-2}$ has to be multiplied by $a$ once more to get $1$.
+We can then find $k$ such that $k a \equiv 1$ by computing $a^{p-2}$.
 
 So for any $p$ prime, we can represent fractions of numbers
 in the range $[1,p-1]$.

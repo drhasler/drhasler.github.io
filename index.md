@@ -1,6 +1,6 @@
 ---
 title: index
-description: extreme intuition
+description: >>> extreme intuition <<<
 ---
 
 # Hello, World!
