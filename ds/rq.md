@@ -7,7 +7,8 @@ given an array a of size N, answer to Q queries of the form
 "get the sum of $a_i$ for $l \leq i \leq r$"
 
 if the array is constant, then a cumulative array might be the best option
-$A_i = \sum_{k<=i} a_i = A_{i-1} + a_i$ and we get `sum(l,r) = A_r - A_{l-1}`
+$A_i = \sum_{k \leq i} a_k = A_{i-1} + a_i$ and we get
+$\sum_{l \leq i \leq r} = A_r - A_{l-1}$
 
 however modifing an element in the array requires all the coefficients to be recomputed.
 
