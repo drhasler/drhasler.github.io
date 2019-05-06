@@ -32,4 +32,4 @@ We can then consider all possible polygon triangulations on both sides.
 
 ![red-triangulation](/res/cat2.png)
 
-uniqueness is given by the red triangle: the only triangle containing this top-edge.
+uniqueness is given by the red triangle: the only triangle sharing this top-edge.
