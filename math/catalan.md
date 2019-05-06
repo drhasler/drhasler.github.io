@@ -44,6 +44,4 @@ We can think of parentheses sequences as mountains:
  /\/\ 
 /    \/\
 ```
-Assuming we have this correspondance for smaller n, the index of the positive index at which the mountain
-is touching the  ground is the same as the one the red triangle points to. then we can see that it
-splits an elevated mountain chain and the rest. :)
+Assuming we have this correspondance for smaller n, the first positive index (divided by 2) at which the mountain is touching the ground is the same as the one the red triangle points to. then we can see that it splits an elevated mountain chain and the rest. :)
