@@ -33,3 +33,17 @@ We can then consider all possible polygon triangulations on both sides.
 ![red-triangulation](/res/cat2.png)
 
 uniqueness is given by the red triangle: the only triangle sharing this top-edge.
+
+## parentheses
+
+how can the number of ways of triangulating an n+2 polygon match the number of well formed
+sequences of n pairs of parentheses ?
+We can think of parentheses sequences as mountains:
+```
+(()())()
+ /\/\ 
+/    \/\
+```
+Assuming we have this correspondance for smaller n, the index of the positive index at which the mountain
+is touching the  ground is the same as the one the red triangle points to. then we can see that it
+splits an elevated mountain chain and the rest. :)
