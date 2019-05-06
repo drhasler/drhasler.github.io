@@ -1,5 +1,5 @@
 ---
-title: Range query
+title: Range queries
 has_math: yes
 ---
 
@@ -8,7 +8,7 @@ given an array a of size N, answer to Q queries of the form
 
 if the array is constant, then a cumulative array might be the best option
 $A_i = \sum_{k \leq i} a_k = A_{i-1} + a_i$ and we get
-$\sum_{l \leq i \leq r} = A_r - A_{l-1}$
+$\sum_{l \leq i \leq r} a_i = A_r - A_{l-1}$
 
 however modifing an element in the array requires all the coefficients to be recomputed.
 
