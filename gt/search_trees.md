@@ -55,8 +55,7 @@ _a balanced tree has balanced subtrees and the difference between its left and r
 
 a balanced subtree has height $O(\log N)$
 
-# Online BST
-
+**Online BST**
 here we will insert keys as they appear, with no prior knowledge on the dataset.
 
 ## rotation
