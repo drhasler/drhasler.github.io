@@ -13,7 +13,7 @@ int lo = a, hi = b+1;
 while (lo < hi) {
 	int mid = (lo + hi + 1) / 2;
 	if (big_enough(mid)) lo = mid;
-	else big = mid - 1;
+	else hi = mid - 1;
 }
 // the answer is lo = hi
 ```

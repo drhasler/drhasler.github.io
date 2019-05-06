@@ -20,5 +20,5 @@ if $a$ and $p$ are coprimes, we have two easy ways of computing the inverse
 1. using the _extended_ GCD algorithm, ie. finding the coefficient $b,c$ such that
   $ a * b + p * c = 1 $, complexity is $\log \max(a,p)$
 2. with Fermat, we have that $a^{p-2} \equiv 1 \mod p$, complexity $\log p$
-but in practice this method is faster
+but in practice this method works faster
 
