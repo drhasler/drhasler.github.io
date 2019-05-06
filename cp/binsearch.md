@@ -9,7 +9,7 @@ If you have to find the minimum $k \in [a,b]$ such that $f(k)=1$
 you can binary search over $[a,b]$ in $\log(b-a)$.
 
 ```cpp
-int lo = a, hi = b+1;
+int lo = a, hi = b;
 while (lo < hi) {
 	int mid = (lo + hi + 1) / 2;
 	if (big_enough(mid)) lo = mid;
