@@ -12,8 +12,8 @@ with a competitive programming approach...
 
 hopefully you can learn one or two things
 
-**pages by topic**
-index summary whatever
+## pages by topic
+index summary whatever, i really need to write some html for this
 
 ### math
 - [Catalan numbers](/math/catalan.md)
