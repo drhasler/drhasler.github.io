@@ -5,9 +5,10 @@ description: extreme intuition
 
 # Hello, World!
 
-instead of writing rigorous proofs
-i will focus on intuition,
-various topics are to be tackled
+Instead of writing rigorous proofs,
+I am focusing on intuition.
+Various topics are to be tackled,
+with a competitive programming approach...
 
 hopefully you can learn 1 or 2 things
 
@@ -19,5 +20,6 @@ index summary whatever
 - [Möbius function](/math/mobius.md)
 - [Fermat's little theorem](/math/fermat.md)
 
-### competitive programming
+### tactics
 - [DP](/cp/dp.md)
+- [binary search](/cp/binsearch.md)
