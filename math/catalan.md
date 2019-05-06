@@ -6,7 +6,7 @@ has_math: yes
 ![hex-triangulation](/res/cat1.png)
 
 - in how many ways can you triangulate a (n+2)-gon ?
-- how many well formed sequences of n pairs of parenthesis is there ?
+- how many well formed sequences of n pairs of parentheses is there ?
 - other shady applications
 
 ## explicit formula
