@@ -26,3 +26,4 @@ index summary whatever
 
 ### graph theory
 - [Eulerian path](/gt/eupath.md)
+- [search trees](/gt/search_trees.md)
