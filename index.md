@@ -21,8 +21,8 @@ index summary whatever
 - [Fermat's little theorem](/math/fermat.md)
 
 ### tactics
-- [Dynamic programming](/cp/dp.md)
-- [Binary search](/cp/binsearch.md)
+- [Dynamic programming](/tactics/dp.md)
+- [Binary search](/tactics/binsearch.md)
 
 ### graph theory
-- Eulerian path - coming up soon
+- [Eulerian path](/gt/eupath.md)
