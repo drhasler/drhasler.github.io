@@ -55,15 +55,14 @@ _a balanced tree has balanced subtrees and the difference between its left and r
 
 a balanced subtree has height $O(\log N)$
 
-**Online BST**
-here we will insert keys as they appear, with no prior knowledge on the dataset.
+> **Online BST** here we will insert keys as they appear, with no prior knowledge on the dataset.
 
 ## rotation
 one incremental solution to get a more balanced tree is to consider an unbalanced tree for which the difference between the height of the left and the right subtrees is bigger than 1.
 we can "rotate" this particular node in order to reduce this gap.
 
 ```
-right rotation
+right rotation (2,4 are nodes 1,3,5 subtrees)
    4          2
  2   5  ->  1   4
 1 3            3 5
