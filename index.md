@@ -21,5 +21,5 @@ index summary whatever
 - [Fermat's little theorem](/math/fermat.md)
 
 ### tactics
-- [DP](/cp/dp.md)
-- [binary search](/cp/binsearch.md)
+- [Dynamic programming](/cp/dp.md)
+- [Binary search](/cp/binsearch.md)
