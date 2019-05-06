@@ -12,7 +12,7 @@ with a competitive programming approach...
 
 hopefully you can learn one or two things
 
-## pages
+**pages by topic**
 index summary whatever
 
 ### math
@@ -27,3 +27,7 @@ index summary whatever
 ### graph theory
 - [Eulerian path](/gt/eupath.md)
 - [Search trees](/gt/search_trees.md)
+
+### data structures
+- [Range queries](/ds/rq.md)
+
