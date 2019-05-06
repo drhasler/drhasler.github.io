@@ -17,6 +17,7 @@ index summary whatever
 ### math
 - [Catalan numbers](/math/catalan.md)
 - [Möbius function](/math/mobius.md)
+- [Fermat's little theorem](/math/fermat.md)
 
 ### competitive programming
 - [DP](/cp/dp.md)
