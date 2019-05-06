@@ -23,3 +23,6 @@ index summary whatever
 ### tactics
 - [Dynamic programming](/cp/dp.md)
 - [Binary search](/cp/binsearch.md)
+
+### graph theory
+- Eulerian path - coming up soon
