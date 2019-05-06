@@ -57,4 +57,4 @@ int main() {
     cout << endl;
 }
 ```
-_i suggest you rtfm to understand linked lists_
+_i suggest you [rtfm](https://en.cppreference.com/w/cpp/container/list/insert) to understand linked lists_
