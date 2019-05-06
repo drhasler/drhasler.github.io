@@ -94,3 +94,10 @@ void build() {
     for (int i=N-1;i;i--) T[i] = T[2*i]+T[2*i+1];
 }
 ```
+
+# Sqrt decomposition
+square root decomposition is even more "general" than segtrees in its applications.
+in square root decomposition we store a tree of sqrt segments, and each for each segment we can store
+information. it support both range updates and queries.
+when processing a range, we have at most $2 \sqrt N$ elements to process
+individually and $\sqrt N$ segments. Thus all operations can be bounded by $\sqrt N$.
