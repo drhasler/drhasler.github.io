@@ -27,7 +27,7 @@ struct edge {
 vector<edge> e[N];
 int e_at[N];
 list<int> euler_path;
-bool seen[N];
+bool seen[M];
 
 void euler(list<int>::iterator& it, int v) {
     for (;e_at[v]<e[v].size();e_at[v]++) {

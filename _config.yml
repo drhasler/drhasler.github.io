@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Dr. Hasler
 name: Matthias Hasler
+markdown: kramdown
