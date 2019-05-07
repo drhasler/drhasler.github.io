@@ -2,7 +2,7 @@
 
 # Cube shadow
 
-This is an odd topic, it is related to one problem of Google Codejam 2018.
+This is an odd topic, it is related to one problem of Google Codejam 2018.  
 [Video from mathologer about it](https://www.youtube.com/watch?v=rAHcZGjKVvg)  
 The statement goes as follow:
 > If you project a cube onto a plane, the area of this projection is equal to the
@@ -20,3 +20,5 @@ and the area recieves contribution from only 3 faces.
 the contribution of each face is the dot product of its normal vector with the light direction.
 
 CQFD. same operation on both sides. More info on higher dimensions generalisation coming soon :)
+
+_need illustrations_
