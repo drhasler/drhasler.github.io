@@ -30,3 +30,6 @@ In openGL, there is a lot of trickery, for bumpy surfaces and reflections, using
 We also have cubemaps for reflective objects: part of their texture is a prerendered map of the surroundings (assumed not to change to much) and we can for negligible computing power offer decent reflection.
 
 # Shapes
+
+when ran on a CPU, we have lots of flexibility, because without parallization, we can deal with each ray in a unique way if we wanted to. Now this helps with shapes: where openGL needs a very canonical representation of an object, raytracing allows to play with spheres for example, and "their" way of interacting with light.
+We have other functions to check for collisions and to compute the quantity of light transmitted, the direction of the reflected ray, etc. So we dont need to triangulate or serialize canonically every single object we want to display.
