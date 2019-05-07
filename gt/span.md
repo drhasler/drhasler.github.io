@@ -32,5 +32,5 @@ _pls check math_
 
 ### Kirchhoff
 A more general statement is Kirchhoff's theorem.
-We construct the laplacian matrix of the graph: take the 0-1 adjacency matrix and add a diagonal one containing the degree of each vertex.
+We construct the laplacian matrix of the graph: take a diagonal matrix containing the degree of each vertex and remove from it the 0-1 adjacency matrix.
 The number of spanning trees is equal to any cofactor of this matrix :o
