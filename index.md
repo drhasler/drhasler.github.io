@@ -1,22 +1,18 @@
 ---
 title: index
-description: >>> extreme intuition <<<
+description: intuition is key
 ---
 
 # Hello, World!
 
 Instead of writing rigorous proofs,
-I am focusing on intuition.
+I am focusing on intuition.  
 Various topics are to be tackled,
-with a competitive programming approach...
-
+with a competitive programming approach...  
 hopefully you can learn one or two things
 
 ## pages by topic
 index summary whatever, i really need to write some html for this
-
-* TOC
-{:toc}
 
 ### math
 - [Catalan numbers](/math/catalan.md)
