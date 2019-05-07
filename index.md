@@ -1,5 +1,5 @@
 ---
-title: index
+title: Dr. Hasler consulting
 description: intuition is key
 ---
 
@@ -26,6 +26,7 @@ index summary whatever, i really need to write some html for this
 ### graph theory
 - [Eulerian path](/gt/eupath.md)
 - [Search trees](/gt/search_trees.md)
+- [Spanning trees](/gt/span.md)
 
 ### data structures
 - [Range queries](/ds/rq.md)
