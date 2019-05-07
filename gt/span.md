@@ -21,7 +21,14 @@ given by Cayley's formula: $n^{n-2}$.
 Proof for n>1: we uniquely identify each spanning tree set by its connected component containing vertex 1, if we remove all edges touching vertex 2. Lets denote the size of this connected component k.
 Then (hopefully math is not broken)
 
-$$C_n = \sum_{k=1}^{n-1} \binom n k C_k C_{n-k}$$
+$$
+C_n
+= \sum_{k=1}^{n-1} k \binom n k C_k C_{n-k}
+= \sum_{k=1}^{n-1} k \binom n k k^{k-2} (n-k)^{n-k-2}
+= n^{n-2}
+$$
+
+_pls check math_
 
 ### Kirchhoff
 A more general statement is Kirchhoff's theorem.
