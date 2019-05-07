@@ -33,3 +33,6 @@ index summary whatever, i really need to write some html for this
 ### geometry
 - [Convexity](/geo/conv.md)
 - [Cube shadow](/geo/shadow.md)
+
+### memes
+- [raytracing](/myst/ray.md)
