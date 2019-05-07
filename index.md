@@ -15,6 +15,9 @@ hopefully you can learn one or two things
 ## pages by topic
 index summary whatever, i really need to write some html for this
 
+* TOC
+{:toc}
+
 ### math
 - [Catalan numbers](/math/catalan.md)
 - [Möbius function](/math/mobius.md)
