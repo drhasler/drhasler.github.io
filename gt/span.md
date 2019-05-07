@@ -19,7 +19,9 @@ There are known formulæ for specific graphs.
 For example the number of spanning trees of a connected graph of n vertices is
 given by Cayley's formula: $n^{n-2}$.  
 Proof for n>1: we uniquely identify each spanning tree set by its connected component containing vertex 1, if we remove all edges touching vertex 2. Lets denote the size of this connected component k.
-Then $C_n = \sum_{k=1}^{n-1} \binom k n C_k C_{n-k}$
+Then (hopefully math is not broken)
+
+$$C_n = \sum_{k=1}^{n-1} \binom n k C_k C_{n-k}$$
 
 ### Kirchhoff
 A more general statement is Kirchhoff's theorem.
