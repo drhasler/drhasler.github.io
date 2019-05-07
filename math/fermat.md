@@ -1,23 +1,20 @@
 ---
-title: moduli n Lil Fermat
+title: lil Fermat
 has_math: yes
 ---
 
-_assuming you are familiar with the basics of modular arithmetic_
-
-## Fermat's little theorem
+# Fermat's little theorem
 > If $p$ is prime and $a$ is not divisible by $p$, then $a^{p-1}-1$ is a multiple of $p$
 
-We can then find $k$ such that $k a \equiv 1$ by computing $a^{p-2}$.
+Let $p$ prime, $0 < a < p$.
+We can find $k$ such that $k a \equiv 1$ by computing $a^{p-2}$.  
+This allows us to store and perform operations on fractions in an efficient manner.
 
-So for any $p$ prime, we can represent fractions of numbers
-in the range $[1,p-1]$.
-
-## computing an inverse
-if $a$ and $p$ are coprimes, we have two easy ways of computing the inverse
+# computing an inverse
+If $a$ and $p$ are coprimes, we have two easy ways of computing the inverse
 
 1. using the _extended_ GCD algorithm, ie. finding the coefficient $b,c$ such that
-  $ a * b + p * c = 1 $, complexity is $\log \max(a,p)$
-2. with Fermat, we have that $a^{p-2} \equiv 1 \mod p$, complexity $\log p$
+$ a b + p c = 1 $, complexity is $O(\log \max(a,p))$
+2. with Fermat, when $p$ is prime, we have that $a^{p-2} \equiv 1 \mod p$, complexity is $O(\log p)$
 but in practice this method works faster
 

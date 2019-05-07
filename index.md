@@ -7,8 +7,7 @@ description: intuition is key
 
 Instead of writing rigorous proofs,
 I am focusing on intuition.  
-Various topics are to be tackled,
-with a competitive programming approach...  
+Various topics are to be tackled, with a competitive programming approach...  
 hopefully you can learn one or two things
 
 ## pages by topic
