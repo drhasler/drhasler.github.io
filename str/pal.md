@@ -5,7 +5,7 @@ has_math: yes
 > A palindrome is a word that reads the same backwards.
 
 ## Longest palindromic substring
-Given a string, find its longest substring which is a palindrome.  
+Given a string of length $n$, find its longest substring which is a palindrome.  
 
 The most naive approach would be to consider all $n^2$ substrings
 and check whether they are palindromic.
