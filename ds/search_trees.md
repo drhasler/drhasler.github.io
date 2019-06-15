@@ -18,7 +18,7 @@ smaller keys and the right one bigger ones.
 ```cpp
 struct node {
     int key,val;
-    node *left=nullptr, *right=nullptr;
+    node *left=nullptr, *right=nullptr; // subtrees
     node(int k, int v) : key(k), val(v) {}
 } root;
 
@@ -29,7 +29,7 @@ int search(node *cur, int k) {
     return -1;
 }
 
-// assuming the key is not in there
+// inserts or overwrites
 void insert(node *cur, int k, int v) {
     if (cur->key == k) cur->val = v;
     else if (cur->key < k) {
@@ -47,22 +47,31 @@ void insert(node *cur, int k, int v) {
 A search can take up to linear time with respect to the height of the tree.
 
 ## Balanced BST
-> The height of a tree is the lenght of the longest simple path starting at its root.
+> The height of a tree is the lenght of the longest simple path starting at its root.  
 > A balanced tree has balanced subtrees and the difference between its left and right subtree heights is at most 1.
+> Its height is in $O(\log N)$.
 
-a balanced subtree has height $O(\log N)$
+Here we will be constructing an _online_ balanced BST:  
+we will insert keys as they appear, with no prior knowledge on the dataset.
 
-> **Online BST** here we will insert keys as they appear, with no prior knowledge on the dataset.
+## Rotation
 
-## rotation
-one incremental solution to get a more balanced tree is to consider an unbalanced tree for which the difference between the height of the left and the right subtrees is bigger than 1.
-we can "rotate" this particular node in order to reduce this gap.
+We can change the structure of a BST while preserving its invariance
+in a constant time operation: a rotation.
 
 ```
-right rotation (2,4 are nodes 1,3,5 subtrees)
-   4          2
- 2   5  ->  1   4
-1 3            3 5
+right rotation on b (a,b are nodes 1,2,3 subtrees)
+   b          a   
+ a   3  ->  1   b 
+1 2            2 3
+```
+
+Using two consecutive rotations we can make a tree more balanced.
+```
+  a          a           b   
+1     c  -> 1   b   ->  a   c 
+    b  4       2  c    1 2 3 4
+   2 3           3 4          
 ```
 
 ## AVL tree
