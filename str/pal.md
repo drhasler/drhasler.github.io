@@ -13,7 +13,7 @@ _complexity_ $O(n^3)$
 
 One can notice that if string $s$ is not a palindrome,
 for any $a,b \ | \ |a|=|b|, \ asb$ will not be a palindrome.
-Thus, for each one of the $2n+1$ positions the _center_ of the palindrome
+Thus, for each one of the $2n-1$ positions the _center_ of the palindrome
 could be in, we only seek for the LPS sharing this center,
 by extending it from the center.
 _complexity_ $O(n^2)$
@@ -45,6 +45,8 @@ for (int c=0;c<len;c++) { // center
     }
 }
 ```
+> Interleaving allows us to consider all $2n-1$ positions, to find both
+  even and odd sized LPS.
 
 This algorithm runs in linear time, as we enter the inner loop will only
 if we are increasing $R$.
