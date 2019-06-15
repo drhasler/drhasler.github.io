@@ -4,7 +4,7 @@ has_math: yes
 ---
 > A palindrome is a word that reads the same backwards.
 
-## Longest palindromic substring
+# Longest Palindromic Substring
 Given a string of length $n$, find its longest substring which is a palindrome.  
 
 The most naive approach would be to consider all $n^2$ substrings
@@ -20,7 +20,7 @@ _complexity_ $O(n^2)$
 
 However, there is a last point that will help us
 bring the complexity down to _linear_ :  
-Notice that a substring of a palindrome is palindromic if and only if its
+A substring of a palindrome is palindromic if and only if its
 _mirror image_ is palindromic.
 
 Here is my implementation of the
