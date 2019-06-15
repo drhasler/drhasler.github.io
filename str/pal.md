@@ -14,7 +14,8 @@ _complexity_ $O(n^3)$
 One can notice that if string $s$ is not a palindrome,
 for any $a,b \ | \ |a|=|b|, \ asb$ will not be a palindrome.
 Thus, for each one of the $2n+1$ positions the _center_ of the palindrome
-could be in, we seek for the LPS sharing this center.
+could be in, we only seek for the LPS sharing this center,
+by extending it from the center.
 _complexity_ $O(n^2)$
 
 However, there is a last point that we can notice and will help us
