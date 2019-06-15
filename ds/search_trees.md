@@ -68,18 +68,22 @@ right rotation on b (a,b are nodes 1,2,3 subtrees)
 
 Using two consecutive rotations we can make a tree more balanced.
 ```
-  a          a           b   
+  a          a            b   
 1     c  -> 1   b   ->  a   c 
     b  4       2  c    1 2 3 4
    2 3           3 4          
 ```
 
 ## AVL tree
-a straight fwd way of representing this balance is the AVL tree.
-lets store in each node the height of the corresponding subtree.
-we can easily spot unbalanced subtrees and do a rotation.
-After each insertion we percolate back up $O(\log N)$ and perform rotations if needed.
-_dont forget to update the height of each node_
+An [AVL tree](https://en.wikipedia.org/wiki/AVL_tree)
+stores an additional information in each node to remain
+balanced: the difference between its subtrees heights.
+
+This allows us to spot unbalanced subtrees easily.
+After each insertion we percolate back to the root in $O(\log N)$
+and perform rotations if needed.
+
+---
 
 ## Red-Black tree
 **aka 2-4 tree, 2-3-4 tree, B-tree of order 4**
@@ -98,7 +102,24 @@ we still have $O(\log n)$ complexity on average for
 however the worst case complexity, $O(n)$
 because the balancing operation is very costly..
 
+## offline solutions
+if all the keys are known beforehand,
+one can use classical datastructures similar to
+[segment trees](/ds/rq.md)
+that offer similar theoretical complexity
+but are in practice faster
 
-# offline stuff
-data structures like segtree and BIT aka Fenwick are coming up as well
+# unordered maps
+using hashing we can reduce a larger range to one that can fit in memory,
+the hash function is a mapping to a hash table.  
+if our hashing function is good, it is unpredictable and collisions
+should have probability $k/N$ where $k$ is the number of keys inserted
+and $N$ is the size of the hash table.  
+if a collision occurs (a different key is assigned to the same bucket)
+we can simply iterate until the next free spot (but this makes deletion
+more complicated) or associate another data structure such as linked lists to store
+what is in the bucket.
+
+if we set $N$ large enough we can reduce the complexity of all common operations
+(search, insertion, deletion) to $O(1)$
 
