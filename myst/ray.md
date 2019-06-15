@@ -1,5 +1,5 @@
 
-# Demistifying: Ray Tracing
+# Demystifying: Ray Tracing
 
 Disclaimer this is only introductory and subtleties like the difference with path tracing will be omitted
 
