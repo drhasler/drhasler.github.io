@@ -105,7 +105,7 @@ because the balancing operation is very costly..
 ## offline solutions
 if all the keys are known beforehand,
 one can use classical datastructures similar to
-[segment trees](/ds/rq.md)
+[segment trees](/ds/rq.html)
 that offer similar theoretical complexity
 but are in practice faster
 
