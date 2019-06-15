@@ -51,7 +51,7 @@ A search can take up to linear time with respect to the height of the tree.
 > A balanced tree has balanced subtrees and the difference between its left and right subtree heights is at most 1.
 > Its height is in $O(\log N)$.
 
-Here we will be constructing an _online_ balanced BST:  
+In the following sections we will describe self-balancing BST:  
 we will insert keys as they appear, with no prior knowledge on the dataset.
 
 ## Rotation
@@ -86,8 +86,7 @@ and perform rotations if needed.
 ---
 
 ## Red-Black tree
-**aka 2-4 tree, 2-3-4 tree, B-tree of order 4**
-these are quite special trees.
+> also known as _2-4 tree_, _2-3-4 tree_ or _B-tree of order 4_
 
 tbh i find it quite painful but more details on the implementation are coming soon
 
@@ -95,12 +94,14 @@ red-black trees are used in the C++ std library, as their flexibility for insert
 and removal cause the costly rotations to be more rare.
 
 ## K-D tree
-working in higher dimensions ? a $k$-D(imensional) tree is splitting the space recursively,
+working in higher dimensions ? a $k$-D(imensional)
+tree is splitting the space recursively,
 at depth $d$, the space is splitted along the dimension $d \mod k$.
 
-we still have $O(\log n)$ complexity on average for 
-however the worst case complexity, $O(n)$
-because the balancing operation is very costly..
+we still have $O(\log n)$ complexity on average for lookup,
+insertion and deletion  
+however the worst case complexity is $O(n)$
+because the balancing operation is very costly...
 
 ## offline solutions
 if all the keys are known beforehand,
@@ -109,7 +110,7 @@ one can use classical datastructures similar to
 that offer similar theoretical complexity
 but are in practice faster
 
-# unordered maps
+# Unordered maps
 using hashing we can reduce a larger range to one that can fit in memory,
 the hash function is a mapping to a hash table.  
 if our hashing function is good, it is unpredictable and collisions
