@@ -45,7 +45,7 @@ for (int c=0;c<len;c++) { // center
     }
 }
 ```
-> Interleaving allows us to consider all $2n-1$ positions, to find both
+> Interleaving allows us to consider all $2n-1$ centers, to find both
   even and odd sized LPS.
 
 This algorithm runs in linear time, as we enter the inner loop will only
