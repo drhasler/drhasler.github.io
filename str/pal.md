@@ -23,8 +23,7 @@ bring the complexity down to _linear_ :
 A substring of a palindrome is palindromic if and only if its
 _mirror image_ is palindromic.
 
-Here is my implementation of the
-[Manacher algorithm](https://en.wikipedia.org/wiki/Longest_palindromic_substring):
+Here is my implementation of [Manacher's algorithm](https://en.wikipedia.org/wiki/Longest_palindromic_substring):
 
 ```cpp
 const int MAX_LEN = 1e5;
