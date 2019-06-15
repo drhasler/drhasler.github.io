@@ -36,7 +36,7 @@ for (int c=0;c<len;c++) s.push_back(os[c]),s.push_back('_'); // interleaving
 len = s.size();
 int L,R=-1;
 for (int c=0;c<len;c++) { // center
-    int l = c<R ? min(pal[L+R-c],R-c) : 1;
+    int l = c<R ? min(pal[L+R-c],R-c) : 1; // length
     for (; c-l>=0 && c+l<len && s[c-l]==s[c+l]; l++);
     pal[c] = --l;
     if (c+l > R) {
