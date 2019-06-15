@@ -18,8 +18,8 @@ could be in, we only seek for the LPS sharing this center,
 by extending it from the center.
 _complexity_ $O(n^2)$
 
-However, there is a last point that we can notice and will help us
-bring the complexity down to _linear_:
+However, there is a last point that will help us
+bring the complexity down to _linear_ :  
 Notice that a substring of a palindrome is palindromic if and only if its
 _mirror image_ is palindromic.
 
