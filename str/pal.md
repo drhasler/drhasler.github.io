@@ -1,5 +1,8 @@
-# Palindromes
-A palindrome is a word that reads the same backwards.
+---
+title: Palindromes
+has_math: yes
+---
+> A palindrome is a word that reads the same backwards.
 
 ## Longest palindromic substring
 Given a string, find its longest substring which is a palindrome.  
