@@ -3,31 +3,29 @@ title: Search trees
 has_math: yes
 ---
 
-this might be moved to something like datastructures..
+In this article I will cover the following topics:
 
 - Binary search trees
 - Balanced binary search tree
-- Unordered map
+- Unordered map (pls wait)
 
-# BST
-each node has a key, a value, and potentially a left and or right child
+# Binary Search Tree
+> Each node has a key, a value, and potentially a left and/or right child.
 
-we maintain an invariance that is for each node, the left subtree contains
-the smaller keys and the right one the bigger.
-
-to find the node corresponding to the key k just run `search(&root,key)`,
+We maintain an invariance: the left subtree of each node contains
+smaller keys and the right one bigger ones.
 
 ```cpp
 struct node {
     int key,val;
-    node *le=nullptr, *ry=nullptr;
+    node *left=nullptr, *right=nullptr;
     node(int k, int v) : key(k), val(v) {}
 } root;
 
 int search(node *cur, int k) {
     if (cur->key==k) return cur->val:
-    if (cur->key < k && cur->le) return search(cur->le, val);
-    if (cur->key > k && cur->ry) return search(cur->ry, val);
+    if (cur->key < k && cur->left) return search(cur->left, val);
+    if (cur->key > k && cur->right) return search(cur->right, val);
     return -1;
 }
 
@@ -35,23 +33,22 @@ int search(node *cur, int k) {
 void insert(node *cur, int k, int v) {
     if (cur->key == k) cur->val = v;
     else if (cur->key < k) {
-        if (cur->le) insert(cur->le, k, v);
-        else cur->le = new node(k,v);
+        if (cur->left) insert(cur->left, k, v);
+        else cur->left = new node(k,v);
     } else { // if (cur->key > k) {
-        if (cur->ry) insert(cur->ry, k, v);
-        else cur->ry = new node(k,v);
+        if (cur->right) insert(cur->right, k, v);
+        else cur->right = new node(k,v);
     }
 }
 ```
 
-however, if we insert integers in an increasing order, we will get an unbalanced tree
-the first fix would be to shuffle the vector first, but this is neither always possible
-nor elegant.
+> To find the node corresponding to the key k just run `search(&root,key)`,
 
-# Balanced BST
-_the height of a tree is the lenght of the longest simple path starting at its root_
+A search can take up to linear time with respect to the height of the tree.
 
-_a balanced tree has balanced subtrees and the difference between its left and right subtree heights is at most 1_
+## Balanced BST
+> The height of a tree is the lenght of the longest simple path starting at its root.
+> A balanced tree has balanced subtrees and the difference between its left and right subtree heights is at most 1.
 
 a balanced subtree has height $O(\log N)$
 
