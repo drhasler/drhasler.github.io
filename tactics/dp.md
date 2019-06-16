@@ -33,9 +33,9 @@ for (int i = 0; i <= s1.size(); i++) for (int j = 0; j <= s2.size(); j++) {
 Tabulation often leads to _simple_ quadratic and cubic algorithms.
 
 ## Linear transforms
-We can use DP to compute the Fibonacci sequence:
+We can use DP to compute the Fibonacci sequence defined as
 $$
-F_0 = 0 \ F_1 = 1 \
+F_1 = 1, \ F_2 = 1, \
 F_{i+2} = F_i + F_{i+1}
 $$
 
@@ -46,9 +46,9 @@ Obtaining the next pair is simply the result of a matrix multiplication.
 
 $$
 \newcommand\pma[1]{\begin{pmatrix}#1\end{pmatrix}}
-f_{2,3} = \pma{ 1 \\ 2 }
+F_{2,3} = \pma{ 1 \\ 2 }
 = \pma{ 0 & 1 \\ 1 & 1 } \pma{ 1 \\ 1 }
-= A f_{1,2}
+= A F_{1,2}
 $$
 
 Using binary exponentiation to compute $A^n$, we obtain
