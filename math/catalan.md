@@ -14,6 +14,7 @@ such as:
 ## Explicit formula
 
 As you may have guessed, this is the answer:
+
 $$
 C_n = \binom{2n}n - \binom{2n}{n+1} = \frac1{n+1} \binom{2n}n
 $$
@@ -21,6 +22,7 @@ $$
 ## Recursive formula
 
 The recursive formula should help you understanding what is happening:
+
 $$
 C_{n+1} = \sum_{k=0}^n C_k \ C_{n-k}
 $$
