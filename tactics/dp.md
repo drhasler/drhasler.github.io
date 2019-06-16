@@ -13,6 +13,7 @@ optimizes _top down_ computations (dividing and solving each
 subproblem) by checking if a computation had already been done.
 
 > Example: finding the longest common subsequence of two strings
+
 ```cpp
 const int MAX_LEN = 1e3;
 int dp[MAX_LEN][MAX_LEN];
@@ -26,6 +27,7 @@ for (int i = 0; i <= s1.size(); i++) for (int j = 0; j <= s2.size(); j++) {
         dp[i+1][j+1] = max(dp[i+1][j+1],dp[i][j]+(s1[i]==s2[j]));
 }
 ```
+
 > the LCS is `dp[s1.size()][s2.size()]`
 
 Tabulation often leads to _simple_ quadratic and cubic algorithms.
