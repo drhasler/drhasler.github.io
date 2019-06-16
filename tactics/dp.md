@@ -28,7 +28,7 @@ for (int i = 0; i <= s1.size(); i++) for (int j = 0; j <= s2.size(); j++) {
 }
 ```
 
-> for _any_ prefix $a,b$ of $s1,s2$ respectively
+> for _any_ prefixes $a,b$ of $s1,s2$ respectively
   their LCS length is `dp[a.size()][b.size()]`
 
 Tabulation often leads to _simple_ quadratic and cubic algorithms.
