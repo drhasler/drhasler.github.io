@@ -18,6 +18,9 @@ index summary whatever, i really need to write some html for this
 - [Möbius function](/math/mobius.md)
 - [Fermat's little theorem](/math/fermat.md)
 
+### strings
+- [Palindromes](/str/pal.md)
+
 ### tactics
 - [Dynamic programming](/tactics/dp.md)
 - [Binary search](/tactics/binsearch.md)
@@ -36,7 +39,4 @@ index summary whatever, i really need to write some html for this
 
 ### memes
 - [raytracing](/myst/ray.md)
-
-### strings
-- [palindromes](/str/pal.md)
 
