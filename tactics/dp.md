@@ -28,7 +28,8 @@ for (int i = 0; i <= s1.size(); i++) for (int j = 0; j <= s2.size(); j++) {
 }
 ```
 
-> the LCS is `dp[s1.size()][s2.size()]`
+> for _any_ prefix $a,b$ of $s1,s2$ respectively
+  their LCS length is `dp[a.size()][b.size()]`
 
 Tabulation often leads to _simple_ quadratic and cubic algorithms.
 
@@ -58,7 +59,7 @@ This technique is very useful and can be used whenever
 we can define a fixed lenght state which
 is a linear transform of its previous instance.
 
-### masks
+### Masks
 Masks are often used to provide a "canonical" access to the vector elements,
 however the previous algorithms works in $O(n^3 \log k)$,
 where $n$ is the size of the state-vector
@@ -70,9 +71,9 @@ to a smaller range of "reachable" states.
 If the number of states is reduced by a factor of $m$, the algorithm
 will run $m^3$ times faster.
 
-## trees
+## Trees
 
-Finally DP can also be used on trees, through one or two DFS. It is generally labeled as DP
-if we have to merge informations about the subbranches, this information can sometimes be
-contained in vectors. You have to be careful about the way you are merging them into the parent one.
+DP can also be used on trees, through one or two DFS.
+A tree-related problem is labeled as DP if we have to merge 
+about the subtrees, this information can sometimes be contained in vectors.
 
