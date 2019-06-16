@@ -3,12 +3,13 @@ title: Catalan numbers
 has_math: yes
 ---
 
-![hex-triangulation](/res/cat1.png)
 The Catalan numbers is a sequence that appears in various counting problems
 such as:
 
 - In how many ways can you triangulate a (n+2)-gon?
 - How many well formed sequences of n pairs of parentheses is there?
+
+![hex-triangulation](/res/cat1.png)
 
 ## Explicit formula
 
