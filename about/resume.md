@@ -6,13 +6,13 @@ Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 
 # Education
 2014-2017: baccalauréat spécialité mathématiques
-> Lycée Bellevue, Martinique
+_(Lycée Bellevue, Martinique)_
 
 2017-2020: Bachelor degree, double-major Mathematics and Computer Science
-> Ecole polytechnique, Palaiseau, France
+_(Ecole polytechnique, Palaiseau, France)_
 
 Fall 2019: exchange semester at ETHZ
-> Zürich, Switzerland
+_(Zürich, Switzerland)_
 
 # Work experience
 jul-oct 2019: intern and part-time at AODocs
