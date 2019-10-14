@@ -64,7 +64,7 @@ codeforces: [m4h - div1 master, rating 2127][cf]
 > 21st out of 80 (may 2019)
 
 ### training
-[**ICPC International Workshop 2018**][icpciw] (Div 1)
+[**ICPC International Workshop 2018**][icpciw] (div 1)
 > MIPT, Moscow, Russia (nov 2018)
 
 Advanced algorithmic classes and training sessions
