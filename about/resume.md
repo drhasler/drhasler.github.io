@@ -11,7 +11,7 @@ Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 2017-2020: Bachelor degree, double-major Mathematics and Computer Science
 > [Ecole polytechnique][lix], Palaiseau, France
 
-Fall 2019: exchange semester at [ETHZ][eth]
+Fall 2019: exchange semester at [ETH Zürich][eth]
 > Zürich, Switzerland
 
 ## Work experience
@@ -68,8 +68,10 @@ codeforces: [m4h - master, rating 2127][cf]
 > Polytechnique (2018-2019)
 
 ## Hackathons
-- Datascience: Mobility challenge Valeo-Kuantic (1st prize)
-- Open source: Cosmos inter-blockchain platform (2nd prize)
+- Datascience:
+> Mobility challenge Valeo-Kuantic (1st prize)
+- Open source:
+> Cosmos inter-blockchain platform (2nd prize)
 - DApps (metamask, solidity):
 > Hedera hashgraph, distributed ledger technology  
 > Ubisoft blockchain heroes, non fungible tokens
@@ -87,4 +89,7 @@ codeforces: [m4h - master, rating 2127][cf]
 [swerc]: https://swerc.eu
 [icpciw]: https://it-edu.com/pages/workshops/?lang=en
 [prologin]: https://prologin.org/
+
+---
+last update: oct 14, 2019
 
