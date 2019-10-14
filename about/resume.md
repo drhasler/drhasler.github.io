@@ -5,12 +5,12 @@ matthias@hasler.fr
 Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 
 # Education
-2014-2017: baccalauréat spécialité mathématiques  
-_Lycée Bellevue, Martinique_  
-2017-2020: Bachelor degree, double-major Mathematics and Computer Science  
-_Ecole polytechnique, Palaiseau, France_  
-Fall 2019: exchange semester at ETHZ  
-_Zürich, Switzerland_  
+2014-2017: baccalauréat spécialité mathématiques
+> _Lycée Bellevue, Martinique_
+2017-2020: Bachelor degree, double-major Mathematics and Computer Science
+> _Ecole polytechnique, Palaiseau, France_
+Fall 2019: exchange semester at ETHZ
+> _Zürich, Switzerland_
 
 # Work experience
 Jul-Oct 2019: intern and part-time at AODocs  
