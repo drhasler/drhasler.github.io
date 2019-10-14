@@ -43,14 +43,13 @@ jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
 - Object-oriented programming (C++)
 - Machine learning, Datascience (Keras, sklearn, pandas)
 
-### personnal experience
+### personal experience
 - Scripting (bash, regex, unix commands)
 - Quantum computing (Q#)
 - Web development (django)
 - Graphics (OpenGL, GLSL)
 
 ## Competitive programming
-
 ### online contests
 codeforces: m4h - master, rating 2127
 
@@ -63,10 +62,10 @@ codeforces: m4h - master, rating 2127
 > 21st out of 80 (may 2019)
 
 ### training
+- **ICPC International Workshop 2018**
+    Moscow (nov 2018)
 - Advanced algorithmic classes and training sessions
     Polytechnique (2018-2019)
-- **ICPC International Workshop 2018**
-    Moscow, nov 2018
 
 ## Hackathons
 Datascience: Mobility challenge Valeo-Kuantic (1st prize)
