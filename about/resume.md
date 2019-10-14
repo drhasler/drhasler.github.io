@@ -65,10 +65,10 @@ codeforces: [m4h - div1 master, rating 2127][cf]
 
 ### training
 [**ICPC International Workshop 2018**][icpciw] (Div 1)
-> Moscow (nov 2018)
+> MIPT, Moscow, Russia (nov 2018)
 
 Advanced algorithmic classes and training sessions
-> Polytechnique (2018-2019)
+> Ecole polytechnique, Palaiseau, France (2018-2019)
 
 ## Hackathons
 **Datascience**
