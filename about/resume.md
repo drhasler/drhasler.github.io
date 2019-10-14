@@ -16,13 +16,13 @@ Fall 2019: exchange semester at ETHZ
 
 # Work experience
 jul-oct 2019: intern and part-time at AODocs
-> machine learning applications (POC)
+> machine learning applications (POC)  
 > unstructured document processing  
 > Google Cloud Platform (admin)  
 > > App/Compute engine, Instance groups  
 > > GCS, BigQuery, Stackdriver  
 > > OAuth, service account
-
+>
 > Drive API  
 > Atlanta, GE, USA  
 
