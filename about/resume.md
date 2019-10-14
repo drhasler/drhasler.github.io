@@ -17,7 +17,7 @@ Fall 2019: exchange semester at [ETH Zürich][eth]
 ## Work experience
 jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 > machine learning applications (POC)  
-> unstructured document processing  
+> unstructured data processing and clustering  
 > Google Cloud Platform
 > > App/Compute engine, Instance groups  
 > > Cloud Storage, BigQuery, Stackdriver  
@@ -74,10 +74,10 @@ Advanced algorithmic classes and training sessions
 > Mobility challenge Valeo-Kuantic (1st prize)
 
 **Open source**
-> Cosmos inter-blockchain platform (2nd prize)
+> [Cosmos inter-blockchain platform][cosmos] (2nd prize)
 
 **DApps** (MetaMask, Solidity)
-> Hedera hashgraph, distributed ledger technology  
+> [Hedera hashgraph][hedera], distributed ledger technology  
 > Ubisoft blockchain heroes, non fungible tokens
 
 ## Languages
@@ -90,9 +90,11 @@ Advanced algorithmic classes and training sessions
 [lix]: https://www.polytechnique.edu/en
 [eth]: https://ethz.ch/en.html
 [ssr]: https://coq.inria.fr/refman/proof-engine/ssreflect-proof-language.html
-[eigen]: http://eigen.tuxfamily.org
-[swerc]: https://swerc.eu
+[eigen]: http://eigen.tuxfamily.org/
+[swerc]: https://swerc.eu/
 [icpciw]: https://it-edu.com/pages/workshops/?lang=en
+[cosmos]: https://cosmos.network/
+[hedera]: https://www.hedera.com/
 [prologin]: https://prologin.org/
 
 ---
