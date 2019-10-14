@@ -1,16 +1,16 @@
 # Matthias Hasler
-### contact
+**contact**  
 matthias@hasler.fr  
 +33 621 48 93 52  
 Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 
 # Education
 2014-2017: baccalauréat spécialité mathématiques  
-    Lycée Bellevue, Martinique  
+_Lycée Bellevue, Martinique_  
 2017-2020: Bachelor degree, double-major Mathematics and Computer Science  
-    Ecole polytechnique, Palaiseau, France  
+_Ecole polytechnique, Palaiseau, France_  
 Fall 2019: exchange semester at ETHZ  
-    Zürich, Switzerland  
+_Zürich, Switzerland_  
 
 # Work experience
 Jul-Oct 2019: intern and part-time at AODocs  
