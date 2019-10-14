@@ -49,11 +49,11 @@ jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 - Scripting (bash, regex, unix commands)
 - Quantum computing (Q#)
 - Web development (django)
-- Graphics (OpenGL, GLSL)
+- Rendering (OpenGL, GLSL, ray tracing)
 
 ## Competitive programming
 ### online contests
-codeforces: [m4h - master, rating 2127][cf]
+codeforces: [m4h - div1 master, rating 2127][cf]
 
 ### onsite contests
 [**SWERC ACM ICPC**][swerc] (Europe):
