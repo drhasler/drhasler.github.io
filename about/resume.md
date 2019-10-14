@@ -6,16 +6,16 @@ Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 
 # Education
 2014-2017: baccalauréat spécialité mathématiques
-_(Lycée Bellevue, Martinique)_
+> Lycée Bellevue, Martinique
 
 2017-2020: Bachelor degree, double-major Mathematics and Computer Science
-_(Ecole polytechnique, Palaiseau, France)_
+> Ecole polytechnique, Palaiseau, France
 
 Fall 2019: exchange semester at ETHZ
-_(Zürich, Switzerland)_
+> Zürich, Switzerland
 
 # Work experience
-jul-oct 2019: intern and part-time at AODocs
+jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
 > machine learning applications (POC)  
 > unstructured document processing  
 > Google Cloud Platform (admin)  
@@ -23,8 +23,7 @@ jul-oct 2019: intern and part-time at AODocs
 > > GCS, BigQuery, Stackdriver  
 > > OAuth, service account
 >
-> Drive API  
-> Atlanta, GE, USA  
+> Google Drive's API  
 
 # Physics
 - Classical Physics, Laplacian
@@ -43,6 +42,7 @@ jul-oct 2019: intern and part-time at AODocs
 - Functional programming (Haskell, SSreflect Coq formal proof)
 - Object-oriented programming (C++)
 - Machine learning, Datascience (Keras, sklearn, pandas)
+
 ### personnal experience
 - Scripting (bash, regex, unix commands)
 - Quantum computing (Q#)
@@ -50,14 +50,18 @@ jul-oct 2019: intern and part-time at AODocs
 - Graphics (OpenGL, GLSL)
 
 # Competitive programming
+
 ### online contests
 codeforces: m4h - master, rating 2127
+
 ### onsite contests
 **SWERC ACM ICPC** (Europe):
-    19th team out of 89 (dec 2018)  
-    qualified for next edition (jan 2020)  
+> 19th team out of 89 (dec 2018)  
+> qualified for next edition (jan 2020)  
+
 **Prologin** (France):
-    21st out of 80 (may 2019)
+> 21st out of 80 (may 2019)
+
 ### training
 - Advanced algorithmic classes and training sessions
     Polytechnique (2018-2019)
@@ -72,7 +76,7 @@ DApps (metamask, solidity):
   Ubisoft blockchain heroes, non fungible tokens
 
 # Languages
-French  - mother tongue
-English - C2
-German  - C1, family
+- French - mother tongue
+- English - C2
+- German - C1, family
 
