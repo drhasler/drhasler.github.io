@@ -1,7 +1,7 @@
 # Matthias Hasler
 **contact**  
 matthias@hasler.fr  
-+33621489352  
++33 621 48 93 52  
 Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 
 ## Education
