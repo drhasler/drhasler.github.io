@@ -18,10 +18,10 @@ Fall 2019: exchange semester at [ETH Zürich][eth]
 jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 > machine learning applications (POC)  
 > unstructured document processing  
-> Google Cloud Platform (admin)  
+> Google Cloud Platform
 > > App/Compute engine, Instance groups  
-> > GCS, BigQuery, Stackdriver  
-> > OAuth, service account
+> > Cloud Storage, BigQuery, Stackdriver  
+> > OAuth, service accounts
 >
 > Google Drive's API  
 
