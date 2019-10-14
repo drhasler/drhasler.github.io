@@ -62,17 +62,18 @@ codeforces: [m4h - master, rating 2127][cf]
 > 21st out of 80 (may 2019)
 
 ### training
-- [**ICPC International Workshop 2018**][icpciw]
+[**ICPC International Workshop 2018**][icpciw]
 > Moscow (nov 2018)
-- Advanced algorithmic classes and training sessions
+
+Advanced algorithmic classes and training sessions
 > Polytechnique (2018-2019)
 
 ## Hackathons
-- Datascience:
+**Datascience**
 > Mobility challenge Valeo-Kuantic (1st prize)
-- Open source:
+**Open source**
 > Cosmos inter-blockchain platform (2nd prize)
-- DApps (metamask, solidity):
+**DApps** (MetaMask, Solidity)
 > Hedera hashgraph, distributed ledger technology  
 > Ubisoft blockchain heroes, non fungible tokens
 
