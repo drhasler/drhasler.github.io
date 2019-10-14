@@ -42,6 +42,7 @@ jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 - Functional programming (Haskell, [SSReflect][ssr])
 - Object-oriented programming (C++)
 - Machine learning, Datascience (Keras, sklearn, pandas)
+- Computational mathematics (NumPy, SciPy, [Eigen][eigen])
 
 ### personal experience
 - Scripting (bash, regex, unix commands)
@@ -89,6 +90,7 @@ Advanced algorithmic classes and training sessions
 [lix]: https://www.polytechnique.edu/en
 [eth]: https://ethz.ch/en.html
 [ssr]: https://coq.inria.fr/refman/proof-engine/ssreflect-proof-language.html
+[eigen]: http://eigen.tuxfamily.org
 [swerc]: https://swerc.eu
 [icpciw]: https://it-edu.com/pages/workshops/?lang=en
 [prologin]: https://prologin.org/
