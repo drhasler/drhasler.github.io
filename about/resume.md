@@ -68,11 +68,11 @@ codeforces: m4h - master, rating 2127
     Polytechnique (2018-2019)
 
 ## Hackathons
-Datascience: Mobility challenge Valeo-Kuantic (1st prize)
-Open source: Cosmos interblockchain platform (2nd prize)
-DApps (metamask, solidity):
-  Hedera hashgraph, distributed ledger technology
-  Ubisoft blockchain heroes, non fungible tokens
+- Datascience: Mobility challenge Valeo-Kuantic (1st prize)
+- Open source: Cosmos interblockchain platform (2nd prize)
+- DApps (metamask, solidity):
+> Hedera hashgraph, distributed ledger technology
+> Ubisoft blockchain heroes, non fungible tokens
 
 ## Languages
 - French - mother tongue
