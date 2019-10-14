@@ -4,7 +4,7 @@ matthias@hasler.fr
 +33 621 48 93 52  
 Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 
-# Education
+## Education
 2014-2017: baccalauréat spécialité mathématiques
 > Lycée Bellevue, Martinique
 
@@ -14,7 +14,7 @@ Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 Fall 2019: exchange semester at ETHZ
 > Zürich, Switzerland
 
-# Work experience
+## Work experience
 jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
 > machine learning applications (POC)  
 > unstructured document processing  
@@ -25,18 +25,18 @@ jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
 >
 > Google Drive's API  
 
-# Physics
+## Physics
 - Classical Physics, Laplacian
 - Optics, Lasers
 - Thermodynamics
 
-# Mathematics
+## Mathematics
 - Linear Algebra, Group theory, Algebraic Topology
 - Analysis, Integration, Differential geometry
 - Probability, Statistics
 - Discrete mathematics
 
-# Computer Science
+## Computer Science
 ### courses taken
 - Computer architecture, Networking (C)
 - Functional programming (Haskell, SSreflect Coq formal proof)
@@ -49,7 +49,7 @@ jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
 - Web development (django)
 - Graphics (OpenGL, GLSL)
 
-# Competitive programming
+## Competitive programming
 
 ### online contests
 codeforces: m4h - master, rating 2127
@@ -68,15 +68,15 @@ codeforces: m4h - master, rating 2127
 - **ICPC International Workshop 2018**
     Moscow, nov 2018
 
-# Hackathons
+## Hackathons
 Datascience: Mobility challenge Valeo-Kuantic (1st prize)
 Open source: Cosmos interblockchain platform (2nd prize)
 DApps (metamask, solidity):
   Hedera hashgraph, distributed ledger technology
   Ubisoft blockchain heroes, non fungible tokens
 
-# Languages
+## Languages
 - French - mother tongue
-- English - C2
-- German - C1, family
+- English - fluent
+- German - proficient
 
