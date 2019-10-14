@@ -9,13 +9,13 @@ Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
 > Lycée Bellevue, Martinique
 
 2017-2020: Bachelor degree, double-major Mathematics and Computer Science
-> Ecole polytechnique, Palaiseau, France
+> [Ecole polytechnique][lix], Palaiseau, France
 
-Fall 2019: exchange semester at ETHZ
+Fall 2019: exchange semester at [ETHZ][eth]
 > Zürich, Switzerland
 
 ## Work experience
-jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
+jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 > machine learning applications (POC)  
 > unstructured document processing  
 > Google Cloud Platform (admin)  
@@ -39,7 +39,7 @@ jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
 ## Computer Science
 ### courses taken
 - Computer architecture, Networking (C)
-- Functional programming (Haskell, SSreflect Coq formal proof)
+- Functional programming (Haskell, [SSReflect][ssr])
 - Object-oriented programming (C++)
 - Machine learning, Datascience (Keras, sklearn, pandas)
 
@@ -51,31 +51,40 @@ jul-oct 2019: intern and part-time at AODocs (Atlanta, GE, USA)
 
 ## Competitive programming
 ### online contests
-codeforces: m4h - master, rating 2127
+codeforces: [m4h - master, rating 2127][cf]
 
 ### onsite contests
-**SWERC ACM ICPC** (Europe):
+[**SWERC ACM ICPC**][swerc] (Europe):
 > 19th team out of 89 (dec 2018)  
 > qualified for next edition (jan 2020)  
 
-**Prologin** (France):
+[**Prologin**][prologin] (France):
 > 21st out of 80 (may 2019)
 
 ### training
-- **ICPC International Workshop 2018**
-    Moscow (nov 2018)
+- [**ICPC International Workshop 2018**][icpciw]
+> Moscow (nov 2018)
 - Advanced algorithmic classes and training sessions
-    Polytechnique (2018-2019)
+> Polytechnique (2018-2019)
 
 ## Hackathons
 - Datascience: Mobility challenge Valeo-Kuantic (1st prize)
-- Open source: Cosmos interblockchain platform (2nd prize)
+- Open source: Cosmos inter-blockchain platform (2nd prize)
 - DApps (metamask, solidity):
-> Hedera hashgraph, distributed ledger technology
+> Hedera hashgraph, distributed ledger technology  
 > Ubisoft blockchain heroes, non fungible tokens
 
 ## Languages
 - French - mother tongue
 - English - fluent
 - German - proficient
+
+[ao]: https://www.aodocs.com/
+[cf]: https://codeforces.com/profile/m4h
+[lix]: https://www.polytechnique.edu/en
+[eth]: https://ethz.ch/en.html
+[ssr]: https://coq.inria.fr/refman/proof-engine/ssreflect-proof-language.html
+[swerc]: https://swerc.eu
+[icpciw]: https://it-edu.com/pages/workshops/?lang=en
+[prologin]: https://prologin.org/
 
