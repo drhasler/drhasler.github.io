@@ -91,5 +91,5 @@ codeforces: [m4h - master, rating 2127][cf]
 [prologin]: https://prologin.org/
 
 ---
-last update: oct 14, 2019
+updated: oct 14, 2019
 
