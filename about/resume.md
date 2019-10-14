@@ -71,8 +71,10 @@ Advanced algorithmic classes and training sessions
 ## Hackathons
 **Datascience**
 > Mobility challenge Valeo-Kuantic (1st prize)
+
 **Open source**
 > Cosmos inter-blockchain platform (2nd prize)
+
 **DApps** (MetaMask, Solidity)
 > Hedera hashgraph, distributed ledger technology  
 > Ubisoft blockchain heroes, non fungible tokens
