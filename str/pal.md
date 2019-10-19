@@ -26,19 +26,17 @@ _mirror image_ is palindromic.
 Here is my implementation of [Manacher's algorithm](https://en.wikipedia.org/wiki/Longest_palindromic_substring):
 
 ```cpp
-const int MAX_LEN = 1e5;
-int pal[2*MAX_LEN+1];
-string os,s; cin >> os; // original string
+string os; cin >> os; // original string
 int len = os.size();
-s.push_back('_');
-for (int c=0;c<len;c++) s.push_back(os[c]),s.push_back('_'); // interleaving
-len = s.size();
+string s(2*len+1,'_')
+for (int i=0; i<len; i++) s[2*i+1] = os[i]; // interleaving
+len = 2*len+1:
 int L,R=-1; // left and right boundaries of rightmost palindrome
-for (int c=0;c<len;c++) { // center
+for (int c=0; c<len; c++) { // center
     int l = c<R ? min(pal[L+R-c],R-c) : 0; // length
-    for (l++; c-l>=0 && c+l<len && s[c-l]==s[c+l]; l++);
+    for (l++; c-l>=0 && c+l<len && s[c-l]==s[c+l]; l++); // extend
     pal[c] = --l;
-    if (c+l > R) {
+    if (c+l > R) { // reset
         L = c-l;
         R = c+l;
     }
