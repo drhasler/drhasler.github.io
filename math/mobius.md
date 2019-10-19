@@ -41,14 +41,9 @@ void mobius() {
 - **mobius** $O(N)$ - as each composite $m$ has a smallest divisor $p$,
   we only write to $\mu(m)$ when $i = m/p$
 
-is it of any use ?
-meet the Möbius inversion
-
-$$
-g(n) = \sum_{d|n} f(d) \implies
-f(n) = \sum_{d|n} \mu(d) g(n/d)
-$$
-
-this can help with simple inclusion/exclusion over the prime factors:  
+one can use the vanilla Möbius function to compute
+set inclusion/exclusion over prime factors:  
 [codeforces 1139D](https://codeforces.com/contest/1139/problem/D)
 is a great example
+
+_wtf is the Möbius inversion?_
