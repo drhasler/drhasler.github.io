@@ -27,7 +27,7 @@ void mobius() {
     mu[1] = 1;
     fill(mu+2,mu+N,-1);
     for (int i=2;i<N;i++) {
-        for (auto &p:pr) {
+        for (int p:pr) {
             if (i*p>=N || p>i) break;
             if (i%p==0) { mu[i*p]=0; break; } // mult > 1
             else mu[i*p] = mu[i] * mu[p]; // distinct or 0
@@ -37,10 +37,9 @@ void mobius() {
 ```
 
 ### complexity analysis
-- **primes** $O(\sqrt N \log \log N )$ - using the
-  [sieve of Erastosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+- **primes** $O(N)$
 - **mobius** $O(N)$ - as each composite $m$ has a smallest divisor $p$,
-  and is only overwritten when $i = m/p$
+  we only write to $\mu(m)$ when $i = m/p$
 
 is it of any use ?
 meet the Möbius inversion
