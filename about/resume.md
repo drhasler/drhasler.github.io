@@ -66,7 +66,7 @@ jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 
 ## Competitive programming
 ### online contests
-codeforces: [m4h - div1 master, rating 2127][cf]
+codeforces: [m4h - div1 master, rating 2207][cf]
 
 ### onsite contests
 [**SWERC ACM ICPC**][swerc] (Europe):
@@ -114,6 +114,6 @@ Advanced algorithmic classes and training sessions
 [prologin]: https://prologin.org/
 
 ---
-updated: oct 19, 2019
+updated: oct 25, 2019
 </div>
 
