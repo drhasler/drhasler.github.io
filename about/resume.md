@@ -88,6 +88,10 @@ Advanced algorithmic classes and training sessions
 > Ecole polytechnique, Palaiseau, France (2018-2019)
 
 ## Hackathons
+**Logistics**
+
+> Aurora Swiss Aerospace network scheduling (1st prize)
+
 **Datascience**
 
 > Mobility challenge Valeo-Kuantic (1st prize)
