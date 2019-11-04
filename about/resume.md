@@ -47,6 +47,7 @@ jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 - Analysis, Integration, Differential geometry
 - Probability, Statistics
 - Discrete mathematics
+- Computational mathematics, Mathematical modeling
 
 </div><div class=col>
 
