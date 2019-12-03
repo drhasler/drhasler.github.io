@@ -20,7 +20,7 @@ Fall 2019: exchange semester at [ETH Zürich][eth]
 > Zürich, Switzerland
 
 ## Work experience
-jul-oct 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
+jul-dec 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 
 > machine learning applications (POC)  
 > unstructured data processing and clustering  
@@ -119,6 +119,6 @@ Advanced algorithmic classes and training sessions
 [prologin]: https://prologin.org/
 
 ---
-updated: oct 27, 2019
+updated: dec 3, 2019
 </div>
 
