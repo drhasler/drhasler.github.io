@@ -72,7 +72,7 @@ codeforces: [m4h - div1 master, rating 2207][cf]
 ### onsite contests
 [**SWERC ACM ICPC**][swerc] (Europe):
 
-> 7th out of 100 teams (jan 2020) w/ ETHZ
+> 7th out of 100 teams (jan 2020) w/ ETHZ  
 > 19/89 (dec 2018) w/ Polytechnique
 
 [**Prologin**][prologin] (France):
