@@ -72,8 +72,8 @@ codeforces: [m4h - div1 master, rating 2207][cf]
 ### onsite contests
 [**SWERC ACM ICPC**][swerc] (Europe):
 
-> 19th team out of 89 (dec 2018)  
-> qualification at Polytechnique and ETHZ for next edition
+> 7th out of 100 teams (jan 2020) w/ ETHZ
+> 19/89 (dec 2018) w/ Polytechnique
 
 [**Prologin**][prologin] (France):
 
