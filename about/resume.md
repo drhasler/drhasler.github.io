@@ -119,6 +119,6 @@ Advanced algorithmic classes and training sessions
 [prologin]: https://prologin.org/
 
 ---
-updated: dec 3, 2019
+updated: feb 6, 2019
 </div>
 
