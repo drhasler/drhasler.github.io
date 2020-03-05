@@ -20,7 +20,7 @@ Fall 2019: exchange semester at [ETH Zürich][eth]
 > Zürich, Switzerland
 
 ## Work experience
-jul-dec 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
+jul 2019-now: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 
 > machine learning applications (POC)  
 > unstructured data processing and clustering  
@@ -31,6 +31,12 @@ jul-dec 2019: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 > > OAuth, service accounts
 >
 > Google Drive's API  
+
+feb-mar 2020: research internship at [CRESS][cress] (Paris, France)
+
+> categorical data, MCA  
+> Topological Data Analysis  
+> Mapper algorithm, Reeb graph
 
 ## Languages
 - French - mother tongue
@@ -117,6 +123,7 @@ Advanced algorithmic classes and training sessions
 [cosmos]: https://cosmos.network/
 [hedera]: https://www.hedera.com/
 [prologin]: https://prologin.org/
+[cress]: https://cress-umr1153.fr/
 
 ---
 updated: feb 6, 2019
