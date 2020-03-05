@@ -51,7 +51,7 @@ feb-mar 2020: research internship at [CRESS][cress] (Paris, France)
 ## Mathematics
 - Linear Algebra, Group theory, Algebraic Topology
 - Analysis, Integration, Differential geometry
-- Probability, Statistics
+- Probability, Statistics, Stochastic processes
 - Discrete mathematics
 - Computational mathematics, Mathematical modeling
 
