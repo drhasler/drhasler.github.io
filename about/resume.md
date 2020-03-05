@@ -3,7 +3,7 @@
 **contact**  
 [matthias@hasler.fr](mailto:matthias@hasler.fr) /
 +33 621 48 93 52  
-Meierwiesenstrasse 62, c/o WOKO, 8064 Zürich
+103 Boulevard des Maréchaux, apt 40.19, Palaiseau, France
 
 ## Education
 2014-2017: baccalauréat spécialité mathématiques, Lycée Bellevue
@@ -126,6 +126,6 @@ Advanced algorithmic classes and training sessions
 [cress]: https://cress-umr1153.fr/
 
 ---
-updated: feb 6, 2019
+updated: mar 3, 2019
 </div>
 
