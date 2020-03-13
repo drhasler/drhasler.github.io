@@ -9,7 +9,7 @@ We will denote the modulus $m$.
 
 $$
 \newcommand{\Z}{\mathbb{Z}}
-a \sim b \iff a = b + k m $, for some $ k \in \Z
+a \sim b \iff a = b + k m \text{, for some } k \in \Z
 $$
 
 
