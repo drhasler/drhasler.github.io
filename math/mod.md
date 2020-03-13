@@ -14,7 +14,7 @@ $$
 
 
 ## Algebraic structure
-In general $Z/mZ$ is a commutative ring.
+In general $\Z/m\Z$ is a commutative ring.
 It means that it has a group structure given by
 the + operation and 0 as neutral element,
 and a second operation * (with 1 as neutral element)
