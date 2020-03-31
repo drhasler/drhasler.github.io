@@ -6,10 +6,6 @@
 103 Boulevard des Maréchaux, apt 40.19, Palaiseau, France
 
 ## Education
-2014-2017: baccalauréat spécialité mathématiques, Lycée Bellevue
-
-> Fort-de-France, Martinique
-
 2017-2020: Bachelor degree, double-major Mathematics and Computer Science,
 [Ecole polytechnique][lix]
 
@@ -19,7 +15,17 @@ Fall 2019: exchange semester at [ETH Zürich][eth]
 
 > Zürich, Switzerland
 
+2014-2017: baccalauréat spécialité mathématiques, Lycée Bellevue
+
+> Fort-de-France, Martinique
+
 ## Work experience
+feb-mar 2020: research internship at [CRESS][cress] (Paris, France)
+
+> categorical data, MCA  
+> Topological Data Analysis  
+> Mapper algorithm, Reeb graph
+
 jul 2019-now: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 
 > machine learning applications (POC)  
@@ -31,12 +37,6 @@ jul 2019-now: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 > > OAuth, service accounts
 >
 > Google Drive's API  
-
-feb-mar 2020: research internship at [CRESS][cress] (Paris, France)
-
-> categorical data, MCA  
-> Topological Data Analysis  
-> Mapper algorithm, Reeb graph
 
 ## Languages
 - French - mother tongue
@@ -126,6 +126,6 @@ Advanced algorithmic classes and training sessions
 [cress]: https://cress-umr1153.fr/
 
 ---
-updated: mar 3, 2019
+updated: mar 30, 2020
 </div>
 
