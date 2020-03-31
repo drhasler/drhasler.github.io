@@ -20,13 +20,13 @@ Fall 2019: exchange semester at [ETH Zürich][eth]
 > Fort-de-France, Martinique
 
 ## Work experience
-feb-mar 2020: research internship at [CRESS][cress] (Paris, France)
+Feb-Mar 2020: research internship at [CRESS][cress] (Paris, France)
 
 > categorical data, MCA  
 > Topological Data Analysis  
 > Mapper algorithm, Reeb graph
 
-jul 2019-now: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
+Jul 2019-now: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 
 > machine learning applications (POC)  
 > unstructured data processing and clustering  
