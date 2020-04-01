@@ -3,7 +3,7 @@
 **contact**  
 [matthias@hasler.fr](mailto:matthias@hasler.fr) /
 +33 621 48 93 52  
-103 Boulevard des Maréchaux,
+103 Boulevard des Maréchaux,  
 apt 40.19, Palaiseau, France
 
 ## Education
