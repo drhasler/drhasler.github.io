@@ -3,8 +3,8 @@
 **contact**  
 [matthias@hasler.fr](mailto:matthias@hasler.fr) /
 +33 621 48 93 52  
-103 Boulevard des Maréchaux,  
-apt 40.19, Palaiseau, France
+103 Boulevard des Maréchaux, apt 40.19,  
+Palaiseau, France
 
 ## Education
 2017-2020: Bachelor degree, double-major Mathematics and Computer Science,
