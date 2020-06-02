@@ -76,6 +76,9 @@ Jul 2019-now: intern and part-time at [AODocs][ao] (Atlanta, GE, USA)
 ### online contests
 codeforces: [m4h - div1 master, rating 2207][cf]
 
+Google Codejam 2020 (ongoing):
+[rank 100 round 2](https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9)
+
 ### onsite contests
 [**SWERC ACM ICPC**][swerc] (Europe):
 
@@ -127,6 +130,6 @@ Advanced algorithmic classes and training sessions
 [cress]: https://cress-umr1153.fr/
 
 ---
-updated: mar 30, 2020
+updated: jun 2, 2020
 </div>
 
