@@ -10,8 +10,6 @@ EOF
 
 # vim setup
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
-curl https://drhasler.github.io/about/.vimrc $HOME
+wget -O $HOME/.vimrc https://drhasler.github.io/about/vimrc
 vim +PluginInstall +qall
-
-
 
